@@ -1,0 +1,21 @@
+# Core API framework
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Data validation
+pydantic==2.7.1
+
+# LangChain + LangGraph + OpenAI
+langchain==0.2.5
+langchain-openai==0.1.8
+langgraph==0.1.5
+langgraph-supervisor==0.0.4
+
+# Environment variable loader
+python-dotenv==1.0.1
+
+# Streamlit frontend
+streamlit==1.35.0
+
+# HTTP client for Streamlit → FastAPI calls
+requests==2.32.3
